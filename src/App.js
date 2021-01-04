@@ -168,7 +168,7 @@ export default function App() {
         </ul>
       </nav>
       <div className="container container-center">
-        <h1 className="hero">Do you meaning of this <span className="heading-inverted">emoji?</span></h1>
+        <h1 className="hero">Do you know meaning of this <span className="heading-inverted">emoji?</span></h1>
         <p>Start typing emoji to see some magic happen!</p>
         <input onChange={emojiHandler} placeholder="Type an emoji here" />
         <h2>{emojiMeaning}</h2>
