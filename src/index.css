@@ -78,6 +78,10 @@ hr{
 
 /* lists */
 
+.list{
+  text-align: left;
+}
+
 .list-non-bullet {
   list-style: none;
 }
@@ -170,4 +174,20 @@ hr{
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+
+/* box border */
+
+.box-border{
+  border: 1px solid var(--primary-color);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+
+/* small heading */
+
+.small-heading{
+  display: block;
 }
